@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+</head>
+<body>
+<!-- Tabel -->
+    <h2>Tampil Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Lengkap</th>
+                <th>No Telp</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jaya Wijaya</td>
+                <td>081234567890</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ayu Jayanti</td>
+                <td>081232343454</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Modifikasi Tabel -->
+    <h2>Modifikasi Tabel 1</h2>
+    <table border="1" style="width: 60%;">
+        <thead>
+            <tr style="background-color: aquamarine;">
+                <th style="width: 5%;">No</th>
+                <th style="width: 45%;">Nama Lengkap</th>
+                <th style="width: 10%;">No Telp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Jaya Wijaya</td>
+                <td>081234567890</td>
+            </tr>
+            <tr>
+                <td>Ayu Jayanti</td>
+                <td>081232343454</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Rata-Rata Umur</td>
+                <td>17</td>
+            </tr>
+        </tfoot>
+    </table>
+
+<!-- Gambar Dalam Tabel -->
+    <h2>Modifikasi Tabel 2</h2>
+    <table border="1" style="width: 70%;">
+        <thead>
+            <tr style="background-color: aquamarine;">
+                <th style="width: 5%;">No</th>
+                <th style="width: 45%;">Nama Lengkap</th>
+                <th style="width: 10%;">No Telp</th>
+                <th style="width: 10%;">Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Jaya Wijaya</td>
+                <td>081234567890</td>
+                <td><img src="logobali.png" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>Ayu Jayanti</td>
+                <td>081232343454</td>
+                <td><img src="logobali.png" width="50" height="50"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="2">Rata-Rata Umur</td>
+            <td colspan="2">17</td>
+        </tfoot>
+    </table>
+</body>
+</html>
